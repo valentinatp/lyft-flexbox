@@ -15,17 +15,21 @@
 		</video>
 		<nav class="barra-completa flex-container">
 			<ul class="barra flex-container">
-				<img class="logo-blanco" src="assets/img/logo-white.png" alt="logo" width="90">
-				<li class="lista"><a href="#">Drive</a></li>
-				<li class="lista"><a href="#">Explore</a></li>
-				<li class="lista"><a href="#">Help</a></li>
-				<button class="btn-nav">Lon in</button>
+				<div class="imagen">
+					<img class="logo-blanco" src="assets/img/logo-white.png" alt="logo">
+				</div>
+				<div class="listado-nav">
+					<li class="lista"><a href="#">Drive</a></li>
+					<li class="lista"><a href="#">Explore</a></li>
+					<li class="lista"><a href="#">Help</a></li>
+					<button id="boton">Lon in</button>
+				</div>
 			</ul>
 		</nav>
 	</section>
-	<header class="cuadro">
+	<header class="cuadro ">
 		<h1>turn miles into money</h1>
-		<h3>sing up to drive whith lyft</h3>
+		<h5>sing up to drive whith lyft</h5>
 		<div class="phone-number">
 			<label for="first-name" class="mat-label"></label>
 			<input type="text" class="datos" id="phone" placeholder="Phone number">
@@ -37,32 +41,28 @@
 		<p>Earn money for inviting friends to drive. Learn more.</p>
 	</header>
 	<section class="telefono">
-		<div class="ride">
+		<img id="iphone" src="assets/img/phone.png" alt="phone">
+		<div class="texto-phone">
 			<h3>a ride in minutes</h3>
 			<p>Request a ride and you'll be on your way in minutes.</p>
 			<p>Request. Ride. Repeat</p>
-		</div>
-		<div class="serius">
 			<h3>serius about safety</h3>
 			<p>From knowing the color of your drive's car to our 24/7</p>
 			<p>Trust & safety Team,we got you</p>
-		</div>	
-		<div class="happy">
-			<h3>happy drivers</h3>
-			<h3>happy riders</h3>
-			<p>Ride with us and you'll see why 9 aout of 10 rides end with five stars.</p>
-			<img src="assets/img/phone.png" alt="phone" width="30%" height="80%">
+			<h3>happy drivers.</h3>
+			<h3>happy riders.</h3>
+			<p>Ride with us and you'll see why 9 aout of 10 rides end with five stars.</p>			
 		</div>	
 	</section>
 	<section class="amplify">
+		<div class="video-youtube-uno">
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw">		
+			</iframe>
+		</div>
 		<div class="texto-uno">
 		<h4>watch</h4>
 			<h1>amplify your ride</h1>
 			<p>Lyft's new emblem, Amp, is the secret to smooth pickups. Lighting up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
-		</div>
-		<div class="video-youtube-uno">
-			<iframe width="420" height="315" src="https://www.youtube.com/embed/fLSmUWOYpKw">		
-			</iframe>
 		</div>
 	</section>
 	<section class="june">
@@ -77,60 +77,62 @@
 		</div>
 	</section>
 	<section class="good">
-		<div class="texto-tres">
-			<h4>watch</h4>
-			<h1>a good thing going</h1>
-			<p>Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>}
-		</div>
 		<div class="video-youtube-tres">
 			<iframe width="420" height="315" src="https://www.youtube.com/embed/xj2VWLV0xCU">
 			</iframe>
 		</div>
+		<div class="texto-tres">
+			<h4>watch</h4>
+			<h1>a good thing going</h1>
+			<p>Launching on TV and online, "Ride on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
+		</div>
 	</section>
 	<footer>
-		<div class="contenido-footer">
-			<ul class="log-in">
-				<li><h1>log in</h1></li>
-				<li>Help</li>
-				<li>Cities</li>
-				<li>Airports</li>
-				<li>Fare Estimate</li>
-			</ul>
+		<div class="total-contenido">	
+			<div class="contenido-footer flex-container">
+				<ul class="log-in">
+					<li><h1>log in</h1></li>
+					<li>Help</li>
+					<li>Cities</li>
+					<li>Airports</li>
+					<li>Fare Estimate</li>
+				</ul>
+			</div>
+			<div class="contenido-footer flex-container">
+				<ul class="partner">
+					<li><h1>partner</h1></li>
+					<li>Partnerships</li>
+					<li>Enterprise</li>
+					<li>Ambassadors</li>
+					<li>Developers</li>
+				</ul>
+			</div>
+			<div class="contenido-footer flex-container">
+				<ul class="learn">
+					<li><h1>learn</h1></li>
+					<li>Safety</li>
+					<li>Blog</li>
+					<li>Press</li>
+					<li>Careers</li>
+				</ul>
+			</div>
+			<div class="contenido-footer flex-container">
+				<ul class="imagenes-logos">
+					<li><img src="assets/img/apple-store.png" alt="logos"></li>
+					<li><img src="assets/img/google-play.png" alt="logos"></li>
+					<li><img src="assets/img/microsoft.png" alt="logos"></li>
+				</ul>
+			</div>
 		</div>
-		<div class="contenido-footer">
-			<ul class="partner">
-				<li><h1>partner</h1></li>
-				<li>Partnerships</li>
-				<li>Enterprise</li>
-				<li>Ambassadors</li>
-				<li>Developers</li>
-			</ul>
-		</div>
-		<div class="contenido-footer">
-			<ul class="learn">
-				<li><h1>learn</h1></li>
-				<li>Safety</li>
-				<li>Blog</li>
-				<li>Press</li>
-				<li>Careers</li>
-			</ul>
-		</div>
-		<div class="contenido-footer">
-			<ul class="imagenes-logos">
-				<li><img src="assets/img/apple-store.png" alt="logos" width="200"></li>
-				<li><img src="assets/img/google-play.png" alt="logos" width="200"></li>
-				<li><img src="assets/img/microsoft.png" alt="logos" width="200"></li>
-			</ul>
-		</div>
-		<div class="redes-sociales">
+		<div class="redes-sociales flex-container">
 			<div id="fb">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
+				<i class="fa fa-facebook redes" aria-hidden="true"></i>
 			</div>
 			<div id="insta">
-				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-instagram redes" aria-hidden="true"></i>
 			</div>
 			<div id="tw">
-				<i class="fa fa-twitter" aria-hidden="true"></i>
+				<i class="fa fa-twitter redes" aria-hidden="true"></i>
 			</div>
 		</div>
 		<div class="final">
